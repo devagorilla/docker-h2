@@ -6,7 +6,7 @@ FROM java:7
 
 MAINTAINER Oscar Fonts <oscar.fonts@geomati.co>
 
-ENV DOWNLOAD http://www.h2database.com/h2-2014-04-05.zip
+ENV DOWNLOAD https://h2database.googlecode.com/files/h2-2009-09-26.zip
 ENV DATA_DIR /opt/h2-data
 
 RUN curl ${DOWNLOAD} -o h2.zip \
