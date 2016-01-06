@@ -4,7 +4,7 @@ FROM java:7
 #  https://github.com/zhilvis/docker-h2
 #  https://github.com/zilvinasu/h2-dockerfile
 
-MAINTAINER Oscar Fonts <oscar.fonts@geomati.co>
+MAINTAINER devagorilla <devagorilla [at] gmail.com>
 
 ENV DOWNLOAD http://www.h2database.com/h2-2015-10-11.zip
 ENV DATA_DIR /opt/h2-data
