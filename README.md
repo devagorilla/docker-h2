@@ -1,6 +1,8 @@
 docker-h2
 =========
 
+I forked this from oscarfonts/docker-h2. I'll update the dockerfiles to use the latest h2 built Version 1.4.190
+
 Dockerized H2 database service.
 
 
@@ -9,15 +11,6 @@ Dockerized H2 database service.
 * A mix of [zhilvis/docker-h2](https://github.com/zhilvis/docker-h2) and [zilvinasu/h2-dockerfile](https://github.com/zilvinasu/h2-dockerfile).
 * H2-DATA location on /opt/h2-data
 * "geodb" tag with all the dependencies needed to run a geotools/geoserver H2 geospatial database (as per https://github.com/jdeolive/geodb).
-
-
-## Trusted builds
-
-[Automated builds](https://hub.docker.com/r/oscarfonts/h2/) on [docker registry](https://registry.hub.docker.com/):
-
-* Latest ([Dockerfile](https://github.com/oscarfonts/docker-h2/blob/master/Dockerfile))
-* 1.1.119 ([Dockerfile](https://github.com/oscarfonts/docker-h2/blob/1.1.119/Dockerfile))
-* geodb ([Dockerfile](https://github.com/oscarfonts/docker-h2/blob/geodb/Dockerfile))
 
 
 ## Running
